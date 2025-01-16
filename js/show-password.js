@@ -1,6 +1,6 @@
-let visible_password = document.getElementsByClassName("visible");
-let invisible_password = document.getElementsByClassName("invisible");
-let password = document.getElementsByClassName("password");
+let visible_password = document.getElementsByClassName("visible")[0];
+let invisible_password = document.getElementsByClassName("invisible")[0];
+let password = document.getElementsByClassName("password")[0];
 
 visible_password.addEventListener("click", () => {
   if (

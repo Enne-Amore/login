@@ -1,7 +1,107 @@
 #main {
-    background-image: url(../img/background.jpg);
+    background: url(../img/background.jpg) bottom no-repeat;
     background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
     min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+#main .form {
+    background-color: #ffffff77;
+    color: #000113;
+    min-width: max-content;
+    width: 400px;
+    min-height: 260px;
+    padding: 4em;
+    border-radius: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#main .form .input-container,
+#main .form .input-container .input {
+    display: flex;
+    flex-direction: column;
+}
+
+#main .form .input-container {
+    width: 100%;
+}
+#main .form .input-container:nth-child(1) {
+    margin-bottom: 3.5em;
+}
+
+#main .form .input-container .input {
+    position: relative;
+}
+
+#main .form .input-container .input label {
+    position: absolute;
+    left: 0;
+    bottom: 2%;
+    padding: 1.5% 0;
+    font-size: 20px;
+    cursor: text;
+    transition: .3s ease-in-out;
+}
+
+#main .form .input-container .input input {
+    background-color: transparent;
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    border-bottom: 2.5px solid var(--yellow);
+    outline: 0;
+    transition: .1s ease-in-out;
+}
+#main .form .input-container .input input:focus,
+#main .form .input-container .input input:valid {
+    border-bottom: 3px solid var(--yellow);
+}
+#main .form .input-container .input input:focus ~ label,
+#main .form .input-container .input input:valid ~ label {
+    transform: translateY(-90%);
+    font-size: 16px;
+    color: #000113;
+}
+
+#main .form .input-container .input .password {
+    position: absolute;
+    display: inline;
+    color: #000113;
+    font-size: 1.5em;
+    padding: 0.5% 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: .4s;
+}
+#main .form .input-container .input span.password:focus-visible {
+    outline: auto;
+    padding: 1%;
+}
+#main .form .input-container .input span.password.invisivel {
+    display: none;
+}
+#main .form .input-container .message {
+    color: #000113;
+    font-size: 16px;
+}
+
+#main .form #submit {
+    width: max-content;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--yellow);
+    color: #000113;
+    padding: .8em 2em;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 1em;
 }
