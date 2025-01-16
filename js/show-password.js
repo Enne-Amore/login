@@ -1,44 +1,43 @@
-let senha_visivel = document.getElementsByClassName("visivel");
-let senha_invisivel = document.getElementsByClassName("invisivel");
+let visible_password = document.getElementsByClassName("visible");
+let invisible_password = document.getElementsByClassName("invisible");
 let password = document.getElementsByClassName("password");
 
-senha_visivel.addEventListener("click", () => {
+visible_password.addEventListener("click", () => {
   if (
-    senha_visivel.style.display == "inline" &&
-    senha_invisivel.style.display == "none"
+    visible_password.style.display == "inline" &&
+    invisible_password.style.display == "none"
   ) {
-    senha_visivel.style.display = "none";
-    senha_invisivel.style.display = "inline";
+    visible_password.style.display = "none";
+    invisible_password.style.display = "inline";
     password.type = "text";
   } else {
-    senha_visivel.style.display = "inline";
-    senha_invisivel.style.display = "none";
+    visible_password.style.display = "inline";
+    invisible_password.style.display = "none";
     password.type = "password";
   }
 });
 
-senha_invisivel.addEventListener("click", () => {
+invisible_password.addEventListener("click", () => {
   if (
-    senha_visivel.style.display == "none" &&
-    senha_invisivel.style.display == "inline"
+    visible_password.style.display == "none" &&
+    invisible_password.style.display == "inline"
   ) {
-    senha_visivel.style.display = "inline";
-    senha_invisivel.style.display = "none";
+    visible_password.style.display = "inline";
+    invisible_password.style.display = "none";
     password.type = "password";
   }
 });
 
-// Ver senha usando o teclado
-senha_visivel.addEventListener("keypress", (tecla) => {
-  if (tecla.key === "Enter") {
-    tecla.target.click();
-    senha_invisivel.focus();
+visible_password.addEventListener("keypress", (key) => {
+  if (key.key === "Enter") {
+    key.target.click();
+    invisible_password.focus();
   }
 });
 
-senha_invisivel.addEventListener("keypress", (tecla) => {
-  if (tecla.key === "Enter") {
-    tecla.target.click();
-    senha_visivel.focus();
+invisible_password.addEventListener("keypress", (key) => {
+  if (key.key === "Enter") {
+    key.target.click();
+    visible_password.focus();
   }
 });
