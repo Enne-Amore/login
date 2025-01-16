@@ -90,8 +90,9 @@
     display: none;
 }
 #main .form .input-container .message {
-    color: #000113;
+    color: #dd0000;
     font-size: 16px;
+    margin-top: .5em;
 }
 
 #main .form #submit {

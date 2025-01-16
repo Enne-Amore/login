@@ -1,6 +1,5 @@
 const visible_password = document.querySelector("#visible");
 const invisible_password = document.querySelector("#invisible");
-const password = document.querySelector("#password");
 
 visible_password.addEventListener("click", () => {
   if (
