@@ -70,7 +70,7 @@
     color: #000113;
 }
 
-#main .form .input-container .input .password {
+#main .form .input-container .input .iconOfPassword {
     position: absolute;
     display: inline;
     color: #000113;
@@ -79,13 +79,14 @@
     right: 0;
     bottom: 0;
     cursor: pointer;
+    user-select: none;
     transition: .4s;
 }
-#main .form .input-container .input span.password:focus-visible {
+#main .form .input-container .input .iconOfPassword:focus-visible {
     outline: auto;
     padding: 1%;
 }
-#main .form .input-container .input span.password.invisivel {
+#main .form .input-container .input #invisible {
     display: none;
 }
 #main .form .input-container .message {
