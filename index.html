@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <form action="src/js/script.js" method="post" class="formulario">
+        <div class="caixa">
+          <div class="campo">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+              required
+            />
+            <label for="email">Email:</label>
+          </div>
+
+          <div class="aviso"></div>
+        </div>
+
+        <div class="caixa">
+          <div class="campo">
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              class="input password"
+              required
+            />
+            <label for="senha">Senha:</label>
+            <span
+              class="material-symbols-outlined senha visivel"
+              aria-hidden="true"
+              tabindex="0"
+            >
+              visibility
+            </span>
+            <span
+              class="material-symbols-outlined senha invisivel"
+              aria-hidden="true"
+              tabindex="0"
+            >
+              visibility_off
+            </span>
+          </div>
+          <div class="aviso"></div>
+        </div>
+
+        <button
+          type="submit"
+          id="Entrar"
+          aria-label="Botão de entrar na plataforma"
+        >
+          Entrar
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
