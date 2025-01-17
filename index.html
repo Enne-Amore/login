@@ -4,62 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- JS -->
+    <script src="js/validation.js" defer></script>
+    <script src="js/show-password.js" defer></script>
   </head>
   <body>
-    <main>
-      <form action="src/js/script.js" method="post" class="formulario">
-        <div class="caixa">
-          <div class="campo">
+    <main id="main">
+      <!-- form -->
+      <form class="form">
+        <div class="input-container">
+          <div class="input">
             <input
-              type="email"
+              type="text"
               name="email"
               id="email"
-              class="input"
               required
             />
+
             <label for="email">Email:</label>
           </div>
 
-          <div class="aviso"></div>
+          <span class="message"></span>
         </div>
 
-        <div class="caixa">
-          <div class="campo">
+        <div class="input-container">
+          <div class="input">
             <input
               type="password"
-              name="senha"
-              id="senha"
-              class="input password"
+              name="password"
+              id="password"
               required
             />
-            <label for="senha">Senha:</label>
+
+            <label for="password">Senha:</label>
+            
             <span
-              class="material-symbols-outlined senha visivel"
+              class="material-symbols-outlined iconOfPassword"
+              id="visible"
               aria-hidden="true"
               tabindex="0"
             >
               visibility
             </span>
+            
             <span
-              class="material-symbols-outlined senha invisivel"
+              class="material-symbols-outlined iconOfPassword"
+              id="invisible"
               aria-hidden="true"
               tabindex="0"
             >
               visibility_off
             </span>
           </div>
-          <div class="aviso"></div>
+
+          <span class="message"></span>
         </div>
 
         <button
           type="submit"
-          id="Entrar"
+          id="submit"
           aria-label="Botão de entrar na plataforma"
         >
           Entrar
         </button>
       </form>
+
+      <!-- success message -->
+      <dialog id="success-modal">
+        Login efetuado com sucesso!
+      </dialog>
     </main>
   </body>
 </html>
