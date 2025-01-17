@@ -9,7 +9,7 @@
 
 #main .form {
     background-color: #ffffff4b;
-    color: #000113;
+    color: var(--black);
     min-width: max-content;
     width: 400px;
     min-height: 260px;
@@ -70,13 +70,13 @@
 #main .form .input-container .input input:valid ~ label {
     transform: translateY(-90%);
     font-size: 16px;
-    color: #000113;
+    color: var(--black);
 }
 
 #main .form .input-container .input .iconOfPassword {
     position: absolute;
     display: inline;
-    color: #000113;
+    color: var(--black);
     font-size: 1.5em;
     padding: 0.5% 0;
     right: 0;
@@ -105,7 +105,7 @@
     font-weight: 600;
     font-size: 20px;
     background-color: var(--yellow);
-    color: #000113;
+    color: var(--black);
     padding: .8em 2em;
     margin: auto;
     margin-top: 2em;

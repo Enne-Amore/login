@@ -26,21 +26,10 @@ button {
 
 /* CSS Variables */
 :root {
-  --yellow: #e9f035;
+  --yellow: #E9F035;
   --orange: #F5CF4C;
+  --black: #000113;
   --default: Arial, Helvetica, sans-serif;
-}
-
-/* Scroll */
-::-webkit-scrollbar {
-  width: auto;
-}
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background-color: var(--yellow);
-  border-radius: 1em;
 }
 
 /* Animations */
