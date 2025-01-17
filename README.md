@@ -1,4 +1,4 @@
-# Teste Funcional de Programação Frontend - Login
+# 👤 Teste Funcional de Programação Frontend - Login
 
  Uma página web simples que consiste numa tela de login com email, senha e um botão de entrar.
 
@@ -45,6 +45,27 @@ teste-funcional-programacao-frontend/
 ```
 
 
+## 🛠️ Instalação Local
+
+1. **Clone o repositório**
+
+No terminal, rode o seguinte comando:
+
+```bash
+git clone https://github.com/Enne-Amore/teste-funcional-programacao-frontend.git
+```
+
+2. **Entre no arquivo "index.html"**
+
+3. **Rode o arquivo principal de renderização:**
+
+Clique com o botão direito do mouse e selecione a seguinte opção:
+
+```bash
+Open with Live Server
+```
+
+
 ## 🌈 Cores Principais
 
 | Cor              | Hexadecimal        |
@@ -52,6 +73,14 @@ teste-funcional-programacao-frontend/
 | Amarela          | #E9F035          |
 | Laranja          | #F5CF4C          |
 | Preta            | #000113          |
+
+
+## 🔤 Fonte Usada
+
+- **Arial, Helvetica, Sans-Serif**  
+  Uso de exemplo:
+  `font-family: Arial, Helvetica, sans-serif;` ou 
+  `font-family: var(--default);`
 
 
 ## 🌟 Referências de Uso
