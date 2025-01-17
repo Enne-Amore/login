@@ -8,13 +8,16 @@
 }
 
 #main .form {
-    background-color: #ffffff77;
+    background-color: #ffffff4b;
     color: #000113;
     min-width: max-content;
     width: 400px;
     min-height: 260px;
     padding: 4em;
+    border: 2px solid var(--yellow);
     border-radius: 2em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
 
     display: flex;
     flex-direction: column;
@@ -61,7 +64,7 @@
 }
 #main .form .input-container .input input:focus,
 #main .form .input-container .input input:valid {
-    border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--orange);
 }
 #main .form .input-container .input input:focus ~ label,
 #main .form .input-container .input input:valid ~ label {
@@ -84,11 +87,12 @@
 }
 #main .form .input-container .input .iconOfPassword:focus-visible {
     outline: auto;
-    padding: 1%;
 }
+
 #main .form .input-container .input #invisible {
     display: none;
 }
+
 #main .form .input-container .message {
     color: #dd0000;
     font-size: 16px;
@@ -106,4 +110,9 @@
     margin: auto;
     margin-top: 2em;
     border-radius: 1em;
+    transition: .2s;
+}
+#main .form #submit:hover,
+#main .form #submit:focus-visible {
+    background-color: var(--orange);
 }

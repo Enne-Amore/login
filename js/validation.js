@@ -5,7 +5,7 @@ const password_message = document.getElementsByClassName("message")[1];
 
 const submit = document.querySelector("#submit");
 submit.addEventListener("click", (e) => {
-  if (password.value < 6) {
+  if (password.value.length < 6) {
     e.preventDefault();
     password_message.textContent = "Preencha no mínimo 6 caracteres*";
     password.focus();
