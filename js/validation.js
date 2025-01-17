@@ -33,6 +33,6 @@ submit.addEventListener("click", (page) => {
     
     setTimeout(() => {
       window.location.reload()
-    }, 2000)
+    }, 1500)
   }
 });

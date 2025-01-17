@@ -1,0 +1,30 @@
+@media screen and (max-width: 500px) { /* mobile */
+    #main .form {
+        padding: 3em;
+    }
+
+    #main .form .input-container:nth-child(1) {
+        margin-bottom: 2em;
+    }
+
+    #success-modal {
+        margin: 16vh auto;
+    }
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) { /* mobile lying down */
+    #main .form {
+        min-width: auto;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px) { /* tablet */
+    #main .form .input-container:nth-child(1) {
+        margin-bottom: 2.5em;
+    }
+
+    #success-modal {
+        margin: 16vh auto;
+    }
+}
