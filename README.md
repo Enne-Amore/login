@@ -1,4 +1,4 @@
-# 👤 Teste Funcional de Programação Frontend - Login
+# 👤 Login
 
  Uma página web simples que consiste numa tela de login com email, senha e um botão de entrar.
 
@@ -15,20 +15,27 @@
 
 ## ✅ Demonstração
 
- [Acessar website](https://enne-amore.github.io/teste-funcional-programacao-frontend/)
+ [Clique aqui para acessar o website](https://enne-amore.github.io/login/)
+
+
+## 🎞️ Pré-visualização
+
+ <img src="img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
 
 
 ## 🚀 Tecnologias Utilizadas
 
- - HTML
- - CSS
- - JavaScript
+ <p align="left">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+ </p>
 
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura do Projeto
 
 ```plaintext
-teste-funcional-programacao-frontend/
+login/
 ├── css/                    # Arquivos CSS
 │   ├── reset.css       
 │   ├── responsive.css  
@@ -68,11 +75,11 @@ Open with Live Server
 
 ## 🌈 Cores Principais
 
-| Cor              | Hexadecimal        |
-| ---------------- | ------------------ |
-| Amarela          | #E9F035          |
-| Laranja          | #F5CF4C          |
-| Preta            | #000113          |
+| Cor     | Hexadecimal |
+| ------- | ----------- |
+| Amarela | `#E9F035`   |
+| Laranja | `#F5CF4C`   |
+| Preta   | `#000113`   |
 
 
 ## 🔤 Fonte Usada
