@@ -15,7 +15,12 @@
 
 ## ✅ Demonstração
 
- [Acessar website](https://enne-amore.github.io/teste-funcional-programacao-frontend/)
+ [Clique aqui para acessar o website](https://enne-amore.github.io/teste-funcional-programacao-frontend/)
+
+
+## 🎞️ Pré-visualização
+
+ <img src="img/preview.gif" alt="Pré-visualização do site" width="340" height="200">
 
 
 ## 🚀 Tecnologias Utilizadas
