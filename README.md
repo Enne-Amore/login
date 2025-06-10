@@ -1,4 +1,4 @@
-# 👤 Teste Funcional de Programação Frontend - Login
+# 👤 Login
 
  Uma página web simples que consiste numa tela de login com email, senha e um botão de entrar.
 
@@ -15,7 +15,7 @@
 
 ## ✅ Demonstração
 
- [Clique aqui para acessar o website](https://enne-amore.github.io/teste-funcional-programacao-frontend/)
+ [Clique aqui para acessar o website](https://enne-amore.github.io/login/)
 
 
 ## 🎞️ Pré-visualização
@@ -32,10 +32,10 @@
  </p>
 
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura do Projeto
 
 ```plaintext
-teste-funcional-programacao-frontend/
+login/
 ├── css/                    # Arquivos CSS
 │   ├── reset.css       
 │   ├── responsive.css  
@@ -75,11 +75,11 @@ Open with Live Server
 
 ## 🌈 Cores Principais
 
-| Cor              | Hexadecimal        |
-| ---------------- | ------------------ |
-| Amarela          | #E9F035          |
-| Laranja          | #F5CF4C          |
-| Preta            | #000113          |
+| Cor     | Hexadecimal |
+| ------- | ----------- |
+| Amarela | `#E9F035`   |
+| Laranja | `#F5CF4C`   |
+| Preta   | `#000113`   |
 
 
 ## 🔤 Fonte Usada
