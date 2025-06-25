@@ -29,6 +29,10 @@ button {
   --yellow: #E9F035;
   --orange: #F5CF4C;
   --black: #000113;
+  --white: #FFFFFD;
+  --transparent-white: #FFFFFD;
+  --red: #ff0000;
+  --green: #008000;
   --default: Arial, Helvetica, sans-serif;
 }
 
